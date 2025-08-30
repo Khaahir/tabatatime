@@ -1,5 +1,5 @@
 import React from 'react'
-import { Outlet, NavLink } from 'react-router-dom'
+import { Outlet, NavLink, Link } from 'react-router-dom'
 
 export default function App(){
   return (
@@ -29,8 +29,8 @@ export default function App(){
         <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', gap:16, flexWrap:'wrap'}}>
           <div>© {new Date().getFullYear()} Tabata Time</div>
           <div style={{display:'flex', gap:12}}>
-            <a href="/terms">Terms</a>
-            <a href="/privacy">Privacy</a>
+            <Link to={"/Terms"}>Terms</Link>
+            <Link to={"/Privacy"}>Privacy</Link>
           </div>
         </div>
       </footer>

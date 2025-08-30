@@ -9,7 +9,7 @@ export default function Home(){
           <span className="badge">Fast • Free • No signup</span>
           <h1>Crush HIIT with <span style={{color:'#e5231f'}}>Tabata</span> <span style={{color:'#ffd000'}}>Time</span></h1>
             A clean, zero‑distraction Tabata & HIIT timer. Save presets, hear beeps, and keep eyes‑free focus while you train.
-            It’s free forever with optional premium goodies.
+            It’s free forever
         </div>
         <div className="card">
           <h3 style={{marginTop:0}}>Why athletes love it</h3>
