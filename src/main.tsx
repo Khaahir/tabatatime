@@ -7,7 +7,9 @@ import FAQ from './pages/FAQ'
 import Terms from './pages/Terms'
 import Privacy from './pages/Privacy'
 import About from './pages/About'
+import support from './pages/support'
 import './styles.css'
+import SupportPage from './pages/support'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,8 @@ const router = createBrowserRouter([
       { path: 'terms', element: <Terms /> },
       { path: 'privacy', element: <Privacy /> },
       { path: 'about', element: <About /> },
+      { path: 'support', element: <SupportPage/> }
+
     ]
   }
 ])
