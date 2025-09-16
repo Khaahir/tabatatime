@@ -8,6 +8,20 @@
     <link rel="icon" type="image/png" href="/logo.png" />
   </head>
   <body>
+    <!-- public/index.html -->
+<form name="support" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input type="hidden" name="form-name" value="support" />
+  <input type="text" name="name" />
+  <input type="email" name="email" />
+  <input type="text" name="subject" />
+  <textarea name="message"></textarea>
+  <!-- If you added extra fields (topic, device, screenshot), list them here too -->
+  <input type="text" name="topic" />
+  <input type="text" name="device" />
+  <input type="file" name="screenshot" />
+  <p><label>Don’t fill this out: <input name="bot-field" /></label></p>
+</form>
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

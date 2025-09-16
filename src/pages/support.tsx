@@ -29,7 +29,7 @@ export default function SupportPage() {
               href="mailto:support@tabata-times.app"
               className="inline-flex items-center gap-2 rounded-xl bg-gray-800 px-4 py-2 text-sm font-medium text-cyan-300 ring-1 ring-gray-700 hover:bg-gray-750 hover:text-cyan-200 transition"
             >
-              ✉️ Email support@tabata-times.app
+              ✉️ Email jpandpadev@gmail.com
             </a>
           </div>
 
@@ -117,7 +117,6 @@ export default function SupportPage() {
                   defaultValue="Bug report"
                 >
                   <option>Bug report</option>
-                  <option>Billing / Subscription</option>
                   <option>Feature request</option>
                   <option>General question</option>
                 </select>
@@ -126,7 +125,7 @@ export default function SupportPage() {
               <fieldset className="group">
                 <legend className="block mb-1 text-sm font-medium text-gray-300">Device</legend>
                 <div className="flex flex-wrap gap-3">
-                  {['iPhone','iPad','Apple Watch','Other'].map((d) => (
+                  {['iPhone','iPad','Other'].map((d) => (
                     <label key={d} className="inline-flex items-center gap-2 rounded-full bg-gray-900 ring-1 ring-gray-800 px-3 py-2 text-sm text-gray-300 cursor-pointer hover:ring-cyan-400">
                       <input type="radio" name="device" value={d} className="accent-cyan-400 bg-gradient-to-br from-gray-900 to-gray-950/80 border border-gray-700/60 shadow-inner focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/60" />
                       {d}
