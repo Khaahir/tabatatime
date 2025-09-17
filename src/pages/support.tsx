@@ -222,16 +222,6 @@ export default function SupportPage() {
           </form>
         </section>
 
-        {/* FAQS */}
-        <section className="bg-gray-900/80 backdrop-blur rounded-3xl p-8 shadow-xl ring-1 ring-gray-800">
-          <h2 className="text-3xl font-semibold mb-6">FAQs</h2>
-          <ul className="space-y-3 text-gray-300 list-disc pl-5">
-            <li><strong>Subscriptions:</strong> On iOS, go to <em>Settings › Your Name › Subscriptions</em> to manage or cancel.</li>
-            <li><strong>Restore Purchases:</strong> In the app, open <em>Settings › Restore Purchases</em>.</li>
-            <li><strong>No sound/timers:</strong> Ensure silent mode is off and grant notification permissions.</li>
-            <li><strong>App won’t open:</strong> Restart your iPhone and update to the latest version of iOS and Tabata Times.</li>
-          </ul>
-        </section>
 
         {/* POLICIES */}
         <section className="bg-gray-900/80 backdrop-blur rounded-3xl p-8 shadow-xl ring-1 ring-gray-800 text-center">
