@@ -216,7 +216,7 @@ export default function SupportPage() {
                 {submitting ? 'Sending…' : 'Send Message'}
               </button>
               <p className="text-sm text-gray-400 md:hidden">
-                Or email <a href="mailto:support@tabata-times.app" className="text-cyan-300 underline-offset-4 hover:underline">jpandpadev@gmail.com/a>
+                Or email <a href="mailto:support@tabata-times.app" className="text-cyan-300 underline-offset-4 hover:underline">jpandpadev@gmail.com</a>
               </p>
             </div>
           </form>
