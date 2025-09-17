@@ -13,7 +13,7 @@ export default function Terms(){
         <li><b>Disclaimer.</b> The Service is provided “as is” without warranties of any kind.</li>
         <li><b>Limitation of Liability.</b> To the maximum extent permitted by law, we are not liable for any indirect or consequential damages.</li>
         <li><b>Changes.</b> We may update these Terms. Continued use means you accept the updates.</li>
-        <li><b>Contact.</b> support@tabatatime.example</li>
+        <li><b>Contact.</b> jpandpadev@gmail.com</li>
       </ol>
       <small className="muted">Last updated: {new Date().toISOString().slice(0,10)}</small>
     </div>

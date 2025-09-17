@@ -10,7 +10,7 @@ export default function Privacy(){
         <li><b>Local storage only.</b> Presets you save stay in your browser’s localStorage.</li>
         <li><b>Cookies.</b> We do not use marketing cookies. If analytics are added later, we will update this page.</li>
         <li><b>Third‑party links.</b> We are not responsible for the privacy practices of external sites.</li>
-        <li><b>Contact.</b> privacy@tabatatime.example</li>
+        <li><b>Contact.</b> jpandpadev@gmail.com</li>
       </ul>
       <small className="muted">Last updated: {new Date().toISOString().slice(0,10)}</small>
     </div>
