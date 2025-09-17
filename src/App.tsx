@@ -19,7 +19,7 @@ export default function App(){
             <NavLink to="/about" className={({isActive})=> isActive?'active':''}>About</NavLink>
             <NavLink to="/terms" className={({isActive})=> isActive?'active':''}>Terms</NavLink>
             <NavLink to="/privacy" className={({isActive})=> isActive?'active':''}>Privacy</NavLink>
-             <NavLink to="/support" className={({isActive})=> isActive?'active':''}>support</NavLink>
+             <NavLink to="/support" className={({isActive})=> isActive?'active':''}>Support</NavLink>
           </nav>
         </div>
       </header>
@@ -32,7 +32,7 @@ export default function App(){
           <div style={{display:'flex', gap:12}}>
             <Link to={"/Terms"}>Terms</Link>
             <Link to={"/Privacy"}>Privacy</Link>
-            <Link to={"/SupportPage"}>Privacy</Link>
+            <Link to={"/SupportPage"}>Support</Link>
           </div>
         </div>
       </footer>
