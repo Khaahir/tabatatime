@@ -32,7 +32,6 @@ export default function App(){
           <div style={{display:'flex', gap:12}}>
             <Link to={"/Terms"}>Terms</Link>
             <Link to={"/Privacy"}>Privacy</Link>
-            <Link to={"/SupportPage"}>Support</Link>
           </div>
         </div>
       </footer>
